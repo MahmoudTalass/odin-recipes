@@ -5,5 +5,27 @@
 
 h1 {
   text-align: center;
-  margin: 1rem 0;
+  padding: 40px 0;
+}
+
+ul {
+  margin: auto;
+  margin-top: 2rem;
+  width: 50%;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a::before {
+  content: "- ";
+  font-weight: bold;
 }
